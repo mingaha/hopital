@@ -1,0 +1,45 @@
+@keyframes MoveInLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-10rem) rotate(-90deg) ; /* to animate in the X direction*/
+
+    }
+    80%{
+        transform: translateX(2rem) rotate(90deg);
+
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+
+    }
+}
+ 
+@keyframes MoveInRight {
+    0%{
+        opacity: 0;
+        transform: translateX(10rem); /* to animate in the X direction*/
+
+    }
+    80%{
+        transform: translateX(-2rem);
+
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+
+    }
+}
+
+@keyframes MoveInBottom{
+    0%{
+        opacity: 0;
+        transform: translate(3rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}

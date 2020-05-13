@@ -1,0 +1,49 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url(ani30.jpg);
+	background-size: cover;
+	image-resolution: from-image;
+}
+.loginbox{
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color: Black;
+}
+.loginbox h1{
+	float: none;
+	font-size: 20px;
+	border-bottom: 6px solid #fff;
+	margin-bottom: 50px;
+	padding: 13px 0
+}
+.textbax{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 2px solid #000FFF;
+}
+.textbax input{
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 20px;
+	width: 50px;
+	float: left;
+	margin: 0 10px;
+}
+input[type=text],input[type=Password],input[type=Email],input[type=number],input {
+  width: 200%;
+}
+input[type=button],input{
+	width: 50%;
+	float: right;
+	background: none;
+}
