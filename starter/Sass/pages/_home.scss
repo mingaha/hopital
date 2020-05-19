@@ -3,3 +3,31 @@
     padding: 25rem 0;
     margin-top: -24vh;
 }
+
+.section-features {
+    padding: 20rem 0;
+    background-image: linear-gradient(
+        to right bottom,
+         rgba($color-primary-light, 0.801),
+         rgba($color-primary-dark, 1.801)
+         ),
+     url(../img/nat-4.jpg );  // setting a specific backgroung for this section 
+     background-size: cover;
+
+     transform: skewY(-7deg); 
+     // to incline the entire section
+
+     & > * {  // selecting all the direct children for that section
+        transform: skewY(7deg);
+        margin-top: -3rem;
+        margin-bottom: -5rem;
+
+     }
+}
+
+
+.section-tours {
+    background-color: $color-grey-light-1;
+    padding: 25rem 0 50rem 0;
+    margin-top: -10rem;
+}
